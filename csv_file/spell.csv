@@ -1,0 +1,17 @@
+,name,key,img_path,cooltime
+0,Barrier,21,SummonerBarrier.png,180
+1,Cleanse,1,SummonerBoost.png,210
+2,Ignite,14,SummonerDot.png,180
+3,Exhaust,3,SummonerExhaust.png,210
+4,Flash,4,SummonerFlash.png,300
+5,Ghost,6,SummonerHaste.png,210
+6,Heal,7,SummonerHeal.png,240
+7,Clarity,13,SummonerMana.png,240
+8,To the King!,30,SummonerPoroRecall.png,10
+9,Poro Toss,31,SummonerPoroThrow.png,20
+10,Smite,11,SummonerSmite.png,15
+11,Mark,39,SummonerSnowURFSnowball_Mark.png,80
+12,Mark,32,SummonerSnowball.png,80
+13,Teleport,12,SummonerTeleport.png,360
+14,Placeholder,54,Summoner_UltBookPlaceholder.png,0
+15,Placeholder and Attack-Smite,55,Summoner_UltBookSmitePlaceholder.png,0
