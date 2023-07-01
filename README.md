@@ -4,4 +4,6 @@ runeDF.py : makes 1) rune.csv
 spellDF.py : makes 1) spell.jpg, 2) spell.csv  
   
 spellCheckGUIv.1.py : uses PyQt5  
-spellCheckchg.py : has functions for 'spellCheckGUIv.1.py'.
+spellCheckchg.py : has functions for 'spellCheckGUIv.1.py'.  
+  
+https://blog.naver.com/qww9363/223143947574
