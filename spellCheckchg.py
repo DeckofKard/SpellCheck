@@ -127,7 +127,7 @@ class CoolCheck:
         now_ = datetime.now()
         now = int(now_.timestamp() * 1000)                      # convert now to milsec(int) 
         Cooltime_ = (now - startTime) + Cooltime
-        return Cooltime_
+        return Cooltime_, now
 
     
     def DelWhenCoolOver(checkSpellDF, startTime):                   # returns dataframe(the fixed checkSpellDF)
@@ -135,4 +135,13 @@ class CoolCheck:
         now = int(now_.timestamp() * 1000)                          # convert now to milsec(int) 
         IngameTime = now - startTime
         checkSpellDF.drop(checkSpellDF[(checkSpellDF['cooltime']) <= IngameTime].index, inplace=True)   # deletes string(s) of checklist when the cool is over
+        print(checkSpellDF)
+        checkSpellDF = CoolCheck.DelDuplicateChampName(checkSpellDF)
+        print(checkSpellDF)
         return checkSpellDF
+    
+    def DelDuplicateChampName(checkSpellDF):            # drops Duplicate champ name & spell 
+        checkSpellDF = checkSpellDF.sort_values('when').drop_duplicates(['spellName', 'champ'], keep = 'last').sort_index()
+        return checkSpellDF
+    
+#-*- coding: utf-8 -*-
