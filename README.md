@@ -8,7 +8,8 @@ spellCheckchg.py : has functions for 'spellCheckGUIv.1.py'.
 
 ## HOW TO USE  
 1. get lol api key on https://developer.riotgames.com/  
-2. open the file "SpellCheck.exe"  
+2. open the file "SpellCheck.exe"
+> it`s in [here](https://drive.google.com/file/d/1k-VeOM70okYMMdEfZEadJG54Bvy1dq-A/view?usp=sharing)   
 * it is slow because it is made by pyinstaller -> no console mode
   
 ![image](https://github.com/DeckofKard/spellCheck/assets/113531187/c6ecea32-db97-4ca1-8d4f-37d8677bd448)
