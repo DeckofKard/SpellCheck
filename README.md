@@ -26,4 +26,6 @@ spellCheckchg.py : has functions for 'spellCheckGUIv.1.py'.
 5. push the spell button to calculate spell cooltime based on rune(Cosmic Insight), Ionian Boots.
 6. the messages on the program is updated when you push any spell button, not automatically.
    
-https://blog.naver.com/qww9363/223143947574
+[here](https://blog.naver.com/qww9363/223143947574) is my blog. Enjoy using it. 
+
+Finished in 2023/07/14.
